@@ -17,6 +17,7 @@
     });
   }
 
+  
   async function makeRequest() {
     try {
       start = new Date();
