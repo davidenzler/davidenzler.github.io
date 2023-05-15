@@ -1,8 +1,8 @@
 body {
     background-color: #235347;
     text-align: center;
-    padding: 1rem, 0rem, 1rem, 2rem;
     font-family: 'Tinos', serif;
+    padding: 0;
 }
 
 header {
@@ -10,6 +10,10 @@ header {
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: flex-end;
+    margin: 0;
+    border-style: none none solid none;
+    border-color: #163832;
+    border-width: 0.25rem;
 }
 
 h1 {
@@ -44,6 +48,9 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    padding-left: 0;
     
 }
 
@@ -64,8 +71,20 @@ a {
     text-decoration: none;
 }
 
-li:hover {
+#a5:hover {
     background-image: url("/img/a5_tile.png");
+    color:white;
+    opacity: 0.5;
+}
+
+#a6:hover {
+    background-image: url("/img/a6_tile.png");
+    color:white;
+    opacity: 0.5;
+}
+
+#a7:hover {
+    background-image: url("/img/a6_tile.png");
     color:white;
     opacity: 0.5;
 }
